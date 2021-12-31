@@ -5,47 +5,15 @@
 <style>
     body {background-color: rgb(0, 0, 0);}
 </style>
+<script language="javascript" type="text/javascript" src="redirector.js"></script>
 </head>
 <body>
-
-    <table>
-        <tr>
-          <th>keyword</th>
-          <th>url</th>
-        </tr>
-        <tr>
-          <td>skparab1</td>
-          <td>https://skparab1.github.io</td>
-        </tr>
-        <tr>
-          <td>clarke</td>
-          <td>docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit</td>
-        </tr>
-      </table> 
 
 var loc = document.URL; 
 
 loc = loc.replace('https://skparab1.github.io/go/', '');
 
 //document.write(loc);
-
-
-{% if loc.includes('https://skparab1.github.io/go/whatever') or loc.includes('whatever') %} 
-    <meta http-equiv='refresh' content='0; URL=https://skparab1.github.io/pascals-triangle'>
-{% endif %}
-
-{% if loc.includes('https://skparab1.github.io/go/clarke') or loc.includes('clarke') %} 
-    <meta http-equiv='refresh' content='0; URL=https://skparab1.github.io/https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit'>
-    '>
-{% endif %}
-
-{% if loc.includes('https://skparab1.github.io/go/test') or loc.includes('test') %} 
-    <meta http-equiv='refresh' content='0; URL=https://skparab1.github.io/search'>
-{% endif %}
-
-{% if loc.includes('https://skparab1.github.io/go/last') or loc.includes('last') %} 
-    <meta http-equiv='refresh' content='0; URL=https://skparab1.github.io/wrongredirect'>
-{% endif %}
 
 <h1 style="color:rgb(0, 0, 255);">loc</h1>
 <h1 style="color:rgb(0, 0, 255);">Hello world</h1>

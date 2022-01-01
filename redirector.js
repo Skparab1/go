@@ -4,7 +4,7 @@ loc = loc.replace('https://skparab1.github.io/go/','')
 if (loc.includes('clarke')){
     window.open('https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit',"_self");
 } else if (loc.includes('pascal')){
-    window.open('https://skparab1.github.io/pascals-triangle',"_self");
+    window.open('https://skparab1.github.io/pascals_triangle',"_self");
 } else if (loc.includes('search')){
     window.open('https://skparab1.github.io/search',"_self");
 } else if (loc.includes('traffic')){

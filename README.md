@@ -7,4 +7,5 @@ a super fast url shortener with html
   - maybe i could add some graphics
   - possibly some gifs of my p5js loading animations
   - gifs could take time to load idk
-  - i will test it
+  - i will test it out and see
+  - 

@@ -9,4 +9,4 @@ a super fast url shortener with html
   - gifs could take time to load idk
   - i will test it out and see
   - it should work
-  - sort of pointless though because html is so fast
+  - sort of pointless though because html is so fast and the graphci will hardly be displayed

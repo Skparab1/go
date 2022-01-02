@@ -5,4 +5,4 @@ a super fast url shortener with html
   - not super easy (like p5js)
   - plain js is used 
   - maybe i could add some graphics
-  - possibly some 
+  - possibly some gifs of my 

@@ -4,4 +4,4 @@ a super fast url shortener with html
 - planning on changeing it to csv-based sourcing
   - not super easy (like p5js)
   - plain js is used 
-  - maybe i could add some graphcis
+  - maybe i could add some graphics

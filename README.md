@@ -6,6 +6,4 @@ a super fast url shortener with html
   - plain js is used 
   - maybe i could add some graphics
   - possibly some gifs of my p5js loading animations
-  - gifs could take time to load idk
-  - i
   - sort of pointless though because html is so fast and the graphci will be displayed for a very short time and probably wont be seen

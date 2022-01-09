@@ -1,5 +1,9 @@
 # go
 a super fast url shortener with html
+
+## current operation
+-intput statements which are function calls
+
 - planning on changing it to csv-based sourcing (should work in js)
   - not super easy (like p5js)
   - plain js is used 

@@ -4,6 +4,7 @@ kew_found = loc.replace('https://skparab1.github.io/go/','')
 
 var keywords = [];
 var urls = [];
+var foundredirect = false;
 
 function r(keyw_set,urw_set){
     keywords.push(keyw_set);
@@ -30,7 +31,11 @@ while (index < keywords.length){
         goto = goto.replace('https://','');
         goto = 'https://'+goto;
         window.open(goto,"_self");
+        foundredirect = true;
     }
     index += 1;
 }
-window.open('https://skparab1.github.io/wrongredirect',"_self");
+
+if (!foundredirect){
+    window.open('https://skparab1.github.io/wrongredirect',"_self");
+}

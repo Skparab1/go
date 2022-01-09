@@ -26,7 +26,11 @@ r('traffic','https://skparab1.github.io/traffic_simulator')
 let index = 0;
 while (index < keywords.length){
     if (keywords[index].includes(kew_found) || kew_found.includes(keywords[index])){
-        
+        let goto = urls[index];
+        goto = goto.replace('https://','');
+        goto = 'https://'+goto;
+        window.open(goto,"_self");
     }
     index += 1;
 }
+window.open('https://skparab1.github.io/wrongredirect',"_self");

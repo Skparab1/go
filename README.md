@@ -5,12 +5,6 @@ a super fast url shortener with html
 - input statements which are function calls
 - tries to mimic how you would enter data into a csv
 - might make the input file seperate
-
-- planning on changing it to csv-based sourcing (should work in js)
-  - not super easy (like p5js)
-  - plain js is used 
-  - maybe i could add some graphics
-  - possibly some gifs of my p5js loading animations
-  - sort of pointless though because html is so fast and the graphci will be displayed for a very short time and probably wont be seen]
+- might change it to csv or json but unlikely
 
 ## maybe use json

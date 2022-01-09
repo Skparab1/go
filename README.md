@@ -4,6 +4,7 @@ a super fast url shortener with html
 ## current operation
 - input statements which are function calls
 - tries to mimic how you would enter data into a csv
+- might make the input file seperate
 
 - planning on changing it to csv-based sourcing (should work in js)
   - not super easy (like p5js)

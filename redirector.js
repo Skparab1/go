@@ -1,6 +1,6 @@
 //----------------- PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 var loc = window.location.href;
-loc = loc.replace('https://skparab1.github.io/go/','')
+kew_found = loc.replace('https://skparab1.github.io/go/','')
 
 var keywords = [];
 var urls = [];
@@ -25,5 +25,8 @@ r('traffic','https://skparab1.github.io/traffic_simulator')
 
 let index = 0;
 while (index < keywords.length){
-    
+    if (keywords[index].includes(kew_found) || kew_found.includes(keywords[index])){
+        
+    }
+    index += 1;
 }

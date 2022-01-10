@@ -9,3 +9,4 @@ a super fast url shortener with html
 
 ## maybe use json
 - wouldnt be that easy
+- maybe use require.js

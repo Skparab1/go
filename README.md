@@ -7,4 +7,5 @@ a super fast url shortener with html
 - might make the input file seperate
 - might change it to csv or json but unlikely
 
-## maybe use json (wouldnty be that easy
+## maybe use json
+- wouldnt be that easy

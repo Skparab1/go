@@ -19,3 +19,7 @@ a super fast url shortener in HTML and Js. Basically a sclaed down version of [m
 - Cons
   - Doesn't have any graphics
   - Doesn't source redirects from csv or json table file (its harder to put redirects in)
+
+## why its called "go"
+- because go is a short subpage name (https://skparab1.github.io/go/test)
+- go sounds cool and if you go to the webpage you will "go" somewhere

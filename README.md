@@ -9,4 +9,4 @@ a super fast url shortener in HTML and Js. Basically a sclaed down verion of [my
 
 ## Usage
 - edit redirector.js file
-- 
+![](Screen Shot 2022-01-28 at 6.35.45 PM.png)

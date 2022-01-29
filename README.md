@@ -12,3 +12,10 @@ a super fast url shortener in HTML and Js. Basically a sclaed down verion of [my
 - change urls and redirects
 
 ![](usage.png)
+
+## Comparison to [my old one](github.com/skparab1/js-url-shortener)
+- Pros
+  - Much faster because doesnt have to load p5js
+- Cons
+  - Doesn't have any graphics
+  - Doesn't source redirects from csv or json table file (its harder to put redirects in)

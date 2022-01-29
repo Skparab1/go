@@ -1,6 +1,6 @@
 //----------------- PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 var loc = window.location.href;
-kew_found = loc.replace('https://skparab1.github.io/goto/','')
+kew_found = loc.replace('https://skparab1.github.io/go/','')
 
 var keywords = [];
 var urls = [];

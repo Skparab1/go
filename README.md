@@ -22,8 +22,9 @@ a super fast url shortener in HTML and Js. Basically a sclaed down version of [m
 - Pros
   - Much faster because doesnt have to load p5js
 - Cons
-  - Doesn't have any graphics
+  - Doesn't have any graphics/animations
   - Doesn't source redirects from csv or json table file (its harder to put redirects in)
+  - No password redirect protection
 
 ## why its called "go"
 - because go is a short subpage name (https://skparab1.github.io/go/test)

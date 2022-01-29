@@ -21,6 +21,7 @@ r('clarke','https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9Ac
 r('pascal','https://skparab1.github.io/pascals_triangle')
 r('s','https://skparab1.github.io/search')
 r('traffic','https://skparab1.github.io/traffic_simulator')
+r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7')
 
 //------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 

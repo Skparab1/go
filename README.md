@@ -13,6 +13,8 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 - Easy to use script section for adding redirects
 - Auto https:// adding (will work with or without https:// at beginning or redirect url)
 
+![](assets/ezgif.com-gif-maker(12).gif)
+
 ## Usage
 - edit redirector.js file
 - change urls and redirects

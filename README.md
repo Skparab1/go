@@ -7,6 +7,11 @@ a super fast url shortener in HTML and Js. Basically a sclaed down version of [m
 
 - left bottom is old one, top right is new one
 
+## Main features
+- Rapid redirecting (probably comparable to tinyurl.com and bit.ly)
+- average redirect time of <0.7 sec
+- Easy to use script section for adding redirects
+
 ## Usage
 - edit redirector.js file
 - change urls and redirects

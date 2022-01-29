@@ -11,4 +11,4 @@ a super fast url shortener in HTML and Js. Basically a sclaed down verion of [my
 - edit redirector.js file
 - change urls and redirects
 
-![](Screen Shot 2022-01-28 at 6.35.45 PM.png)
+![](usage.png)

@@ -18,10 +18,11 @@ function r(keyw_set,urw_set){
 
 r('test','https://www.google.com/search?q=test');
 r('clarke','https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit');
-r('pascal','https://skparab1.github.io/pascals_triangle')
-r('s','https://skparab1.github.io/search')
-r('traffic','https://skparab1.github.io/traffic_simulator')
-r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7')
+r('pascal','https://skparab1.github.io/pascals_triangle');
+r('s','https://skparab1.github.io/search');
+r('traffic','https://skparab1.github.io/traffic_simulator');
+r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7');
+r('united','https://flightaware.com/live/flight/UAL1986/history/20220205/1635Z/KSFO/KIAD');
 
 //------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 

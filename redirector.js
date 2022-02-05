@@ -23,6 +23,7 @@ r('s','https://skparab1.github.io/search');
 r('traffic','https://skparab1.github.io/traffic_simulator');
 r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7');
 r('united','https://flightaware.com/live/flight/UAL1986/history/20220205/1635Z/KSFO/KIAD');
+r('wisconsin','https://flightaware.com/live/flight/AWI3790/history/20220205/2300Z/KIAD/KUNV');
 
 //------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 

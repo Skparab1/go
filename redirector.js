@@ -1,7 +1,10 @@
 var loc = window.location.href;
 kew_found = loc.replace('https://skparab1.github.io/go/','')
 
-var json = require('./redirects.json');
+fetch("redirects.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
+
 
 r('test','https://www.google.com/search?q=test');
 r('clarke','https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit');

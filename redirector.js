@@ -1,9 +1,7 @@
 var loc = window.location.href;
 kew_found = loc.replace('https://skparab1.github.io/go/','')
 
-$.getJSON("redirects.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
-});
+var json = require('./redirects.json');
 
 r('test','https://www.google.com/search?q=test');
 r('clarke','https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit');

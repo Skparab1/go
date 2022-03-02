@@ -22,6 +22,7 @@ r('pascal','https://skparab1.github.io/pascals_triangle')
 r('s','https://skparab1.github.io/search')
 r('traffic','https://skparab1.github.io/traffic_simulator')
 r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7')
+r('kite','https://docs.google.com/document/d/1tcqwzqE6bE7zakvrO1ssHrbLXEfVpiU4KlNP8_R29Ws/edit');
 
 //------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 

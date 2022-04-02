@@ -27,6 +27,7 @@ r('message','https://skparab1.github.io/server/frontend.html');
 r('m','https://skparab1.github.io/server/frontend.html');
 r('send','https://skparab1.github.io/server/ui.html');
 r('webquest','https://www.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html');
+r('map','https://goo.gl/maps/KpkQ7ZPBFurFAVs36');
 
 //------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 

@@ -1,4 +1,3 @@
-//----------------- PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 var loc = window.location.href;
 kew_found = loc.replace('https://skparab1.github.io/go/','')
 
@@ -6,30 +5,9 @@ var keywords = [];
 var urls = [];
 var foundredirect = false;
 
-function r(keyw_set,urw_set){
-    keywords.push(keyw_set);
-    urls.push(urw_set);
-}
+//keywords is the keyw array and urls is the url array
 
-//-=---------------- OK YOU CAN MAKE CHANGES NOW--------------------------
-// duplicate those lines and put keywords and urls
-// in the format of r(keyword,url);
-// ok with or without https://
 
-r('test','https://www.google.com/search?q=test');
-r('clarke','https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit');
-r('pascal','https://skparab1.github.io/pascals_triangle')
-r('s','https://skparab1.github.io/search')
-r('traffic','https://skparab1.github.io/traffic_simulator')
-r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7')
-r('kite','https://docs.google.com/document/d/1tcqwzqE6bE7zakvrO1ssHrbLXEfVpiU4KlNP8_R29Ws/edit');
-r('message','https://skparab1.github.io/server/frontend.html');
-r('m','https://skparab1.github.io/server/frontend.html');
-r('send','https://skparab1.github.io/server/ui.html');
-r('webquest','https://www.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html');
-r('map','https://goo.gl/maps/KpkQ7ZPBFurFAVs36');
-
-//------------------ PLEASE NO CHANGES BELOW THIS LINE (until i say so)--------------------------
 
 let index = 0;
 while (index < keywords.length){

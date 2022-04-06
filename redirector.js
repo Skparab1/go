@@ -27,6 +27,7 @@ var foundredirect = false;
     urldata = urldata.replace('"}','');
     keywords = keyworddata.split('&nextentry&');
     urls = urldata.split('&nextentry&');
+    console.log(keywords);
 })();
 
 let index = 0;

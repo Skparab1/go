@@ -2,8 +2,7 @@
   "version": "1",
   "data": [
     {
-      "keywords": "&nextentry&test&nextentry&clarke&nextentry&pascal&nextentry&s"
-r('traffic','https://skparab1.github.io/traffic_simulator')
+      "keywords": "&nextentry&test&nextentry&clarke&nextentry&pascal&nextentry&s&nextentry&traffic"
 r('maps','goo.gl/maps/t5SL5dqpvwhDXbsX7')
 r('kite','https://docs.google.com/document/d/1tcqwzqE6bE7zakvrO1ssHrbLXEfVpiU4KlNP8_R29Ws/edit');
 r('message','https://skparab1.github.io/server/frontend.html');
@@ -13,7 +12,7 @@ r('webquest','https://www.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html');
 r('map','https://goo.gl/maps/KpkQ7ZPBFurFAVs36');
     },
     {
-      "urls": "&nextentry&https://www.google.com/search?q=test&nextentry&https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit&nextentry&https://skparab1.github.io/pascals_triangle&nextentry&https://skparab1.github.io/search"
+      "urls": "&nextentry&https://www.google.com/search?q=test&nextentry&https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit&nextentry&https://skparab1.github.io/pascals_triangle&nextentry&https://skparab1.github.io/search&nextentry&https://skparab1.github.io/traffic_simulator"
     }
   ],
   "secondArray": [

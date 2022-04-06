@@ -18,8 +18,8 @@ var foundredirect = false;
     keyworddata = keyworddata.replace('"}','');
     urldata = urldata.replace('{"urls":"','');
     urldata = urldata.replace('"}','');
-    keywords = oldusernames.split('&nextentry&');
-    urls = oldmessages.split('&nextentry&');
+    keywords = keyworddata.split('&nextentry&');
+    urls = urldata.split('&nextentry&');
 })();
 
 let index = 0;

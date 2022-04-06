@@ -3,7 +3,6 @@
   "data": [
     {
       "keywords": "&nextentry&test&nextentry&clarke&nextentry&pascal&nextentry&s&nextentry&traffic&nextentry&maps&nextentry&kite&nextentry&message&nextentry&m"
-r('send','https://skparab1.github.io/server/ui.html');
 r('webquest','https://www.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html');
 r('map','https://goo.gl/maps/KpkQ7ZPBFurFAVs36');
     },

@@ -27,10 +27,10 @@ var foundredirect = false;
     urldata = urldata.replace('"}','');
     keywords = keyworddata.split('&nextentry&');
     urls = urldata.split('&nextentry&');
-    console.log(keywords);
+    console.log('1:'+keywords);
 })();
 
-console.log(keywords);
+console.log('2:'+keywords);
 let index = 0;
 while (index < keywords.length){
     if (keywords[index] == kew_found){
@@ -43,8 +43,8 @@ while (index < keywords.length){
     index += 1;
 }
 
-console.log(keywords);
-console.log(urls);
+console.log('3:'+keywords);
+console.log('4:'+urls);
 
 if (!foundredirect){
     //window.open('https://skparab1.github.io/wrongredirect',"_self");

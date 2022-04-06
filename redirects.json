@@ -2,8 +2,7 @@
   "version": "1",
   "data": [
     {
-      "keywords": "&nextentry&test&nextentry&clarke&nextentry&pascal&nextentry&s&nextentry&traffic&nextentry&maps"
-r('kite','https://docs.google.com/document/d/1tcqwzqE6bE7zakvrO1ssHrbLXEfVpiU4KlNP8_R29Ws/edit');
+      "keywords": "&nextentry&test&nextentry&clarke&nextentry&pascal&nextentry&s&nextentry&traffic&nextentry&maps&nextentry&kite"
 r('message','https://skparab1.github.io/server/frontend.html');
 r('m','https://skparab1.github.io/server/frontend.html');
 r('send','https://skparab1.github.io/server/ui.html');
@@ -11,7 +10,7 @@ r('webquest','https://www.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html');
 r('map','https://goo.gl/maps/KpkQ7ZPBFurFAVs36');
     },
     {
-      "urls": "&nextentry&https://www.google.com/search?q=test&nextentry&https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit&nextentry&https://skparab1.github.io/pascals_triangle&nextentry&https://skparab1.github.io/search&nextentry&https://skparab1.github.io/traffic_simulator&nextentry&oo.gl/maps/t5SL5dqpvwhDXbsX7"
+      "urls": "&nextentry&https://www.google.com/search?q=test&nextentry&https://docs.google.com/document/d/12t1be3KzO0hD-UEISfK49zdyhGyRm9AcGRyol9qg6UY/edit&nextentry&https://skparab1.github.io/pascals_triangle&nextentry&https://skparab1.github.io/search&nextentry&https://skparab1.github.io/traffic_simulator&nextentry&oo.gl/maps/t5SL5dqpvwhDXbsX7&nextentry&https://docs.google.com/document/d/1tcqwzqE6bE7zakvrO1ssHrbLXEfVpiU4KlNP8_R29Ws/edit"
     }
   ],
   "secondArray": [

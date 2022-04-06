@@ -11,11 +11,18 @@ var foundredirect = false;
     keyworddata = data1.data[0];
     urldata = data1.data[1];
     
+    console.log(keyworddata);
+    
     keyworddata = JSON.stringify(keyworddata);
     urldata = JSON.stringify(urldata);
     
+    console.log(keyworddata);
+    
     keyworddata = keyworddata.replace('{"keywords":"','');
     keyworddata = keyworddata.replace('"}','');
+    
+    console.log(keyworddata);
+    
     urldata = urldata.replace('{"urls":"','');
     urldata = urldata.replace('"}','');
     keywords = keyworddata.split('&nextentry&');

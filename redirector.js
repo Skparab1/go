@@ -30,6 +30,7 @@ var foundredirect = false;
     console.log(keywords);
 })();
 
+console.log(keywords);
 let index = 0;
 while (index < keywords.length){
     if (keywords[index] == kew_found){

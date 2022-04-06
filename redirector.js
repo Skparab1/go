@@ -10,6 +10,16 @@ var foundredirect = false;
     const data1 = await fetch("./redirects.json").then(r => r.json());
     keyworddata = data1.data[0];
     urldata = data1.data[1];
+    
+    keyworddata = JSON.stringify(keyworddata);
+    urldata = JSON.stringify(urldata);
+    
+    keyworddata = keyworddata.replace('{"keywords":"','');
+    keyworddata = keyworddata.replace('"}','');
+    urldata = urldata.replace('{"urls":"','');
+    urldata = urldata.replace('"}','');
+    keywords = oldusernames.split('&nextentry&');
+    urls = oldmessages.split('&nextentry&');
 })();
 
 let index = 0;

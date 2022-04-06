@@ -34,6 +34,9 @@ while (index < keywords.length){
     index += 1;
 }
 
+console.log(keywords);
+console.log(urls);
+
 if (!foundredirect){
-    window.open('https://skparab1.github.io/wrongredirect',"_self");
+    //window.open('https://skparab1.github.io/wrongredirect',"_self");
 }

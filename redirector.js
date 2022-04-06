@@ -6,8 +6,10 @@ var urls = [];
 var foundredirect = false;
 
 //keywords is the keyw array and urls is the url array
-
-
+(async () => {
+    const data1 = await fetch("./redirects.json").then(r => r.json());
+    
+})();
 
 let index = 0;
 while (index < keywords.length){

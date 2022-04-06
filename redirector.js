@@ -28,24 +28,24 @@ var foundredirect = false;
     keywords = keyworddata.split('&nextentry&');
     urls = urldata.split('&nextentry&');
     console.log('1:'+keywords);
-})();
-
-console.log('2:'+keywords);
-let index = 0;
-while (index < keywords.length){
-    if (keywords[index] == kew_found){
-        let goto = urls[index];
-        goto = goto.replace('https://','');
-        goto = 'https://'+goto;
-        window.open(goto,"_self");
-        foundredirect = true;
+    
+    console.log('2:'+keywords);
+    let index = 0;
+    while (index < keywords.length){
+        if (keywords[index] == kew_found){
+            let goto = urls[index];
+            goto = goto.replace('https://','');
+            goto = 'https://'+goto;
+            window.open(goto,"_self");
+            foundredirect = true;
+        }
+        index += 1;
     }
-    index += 1;
-}
 
-console.log('3:'+keywords);
-console.log('4:'+urls);
+    console.log('3:'+keywords);
+    console.log('4:'+urls);
 
-if (!foundredirect){
-    //window.open('https://skparab1.github.io/wrongredirect',"_self");
-}
+    if (!foundredirect){
+        //window.open('https://skparab1.github.io/wrongredirect',"_self");
+    }
+})();

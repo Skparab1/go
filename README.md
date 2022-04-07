@@ -19,7 +19,7 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 ## Usage
 - edit redirector.js file
 - change urls and redirects
-
+- not this anymore
 ![](assets/usage.png)
 
 ## Comparison to [my old one](github.com/skparab1/js-url-shortener)

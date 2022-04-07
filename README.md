@@ -12,6 +12,7 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 - average redirect time of <0.7 sec
 - Easy to use script section for adding redirects
 - Auto https:// adding (will work with or without https:// at beginning or redirect url)
+- sourceing from json file
 
 ![](assets/ezgif.com-gif-maker(12).gif)
 

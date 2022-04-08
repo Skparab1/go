@@ -30,4 +30,3 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
   - No password redirect protection
 
 ## why its called "go"
-- because go is a short subpage name (https://skparab1.github.io/go/test)

@@ -17,7 +17,7 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 ![](assets/ezgif.com-gif-maker(12).gif)
 
 ## Usage
-- edit redirects.js file
+- edit redirects.json file
 - change urls and redirects
 - not this anymore, now uses sourceing from a json file
 ![](assets/usage.png)

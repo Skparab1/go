@@ -26,7 +26,7 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
   - Much faster because doesnt have to load p5js
 - Cons
   - Doesn't have any graphics/animations
-  - Uses Json instead of csv
+  - Uses json instead of csv (harder to edit)
   - No password redirect protection
 
 ## why its called "go"

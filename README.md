@@ -28,5 +28,3 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
   - Doesn't have any graphics/animations
   - Uses json instead of csv (harder to edit)
   - No password redirect protection
-
-## why its called "go"

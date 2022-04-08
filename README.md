@@ -31,4 +31,3 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 
 ## why its called "go"
 - because go is a short subpage name (https://skparab1.github.io/go/test)
-- go sounds cool and if you go to the webpage you will "go" somewhere

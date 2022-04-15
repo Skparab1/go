@@ -36,7 +36,7 @@ var foundredirect = false;
             let goto = urls[index];
             goto = goto.replace('https://','');
             goto = 'https://'+goto;
-            document.write('');
+            document.write('Redirecting you to ',goto);
             window.open(goto,"_self");
             foundredirect = true;
         }

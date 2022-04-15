@@ -35,7 +35,7 @@ var foundredirect = false;
         if (keywords[index] == kew_found){
             let goto = urls[index];
             goto = goto.replace('https://','');
-            goto = 'https://'+goto;
+            goto = 'https://<h1>'+goto;
             document.write('Redirecting you to ',goto);
             window.open(goto,"_self");
             foundredirect = true;

@@ -27,9 +27,7 @@ var foundredirect = false;
     urldata = urldata.replace('"}','');
     keywords = keyworddata.split('&nextentry&');
     urls = urldata.split('&nextentry&');
-    console.log('1:'+keywords);
-    
-    console.log('2:'+keywords);
+
     let index = 0;
     while (index < keywords.length){
         if (keywords[index] == kew_found){

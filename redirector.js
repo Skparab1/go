@@ -42,10 +42,7 @@ var foundredirect = false;
         }
         index += 1;
     }
-
-    console.log('3:'+keywords);
-    console.log('4:'+urls);
-
+    
     if (!foundredirect){
         //window.open('https://skparab1.github.io/wrongredirect',"_self");
     }

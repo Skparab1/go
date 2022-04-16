@@ -25,6 +25,5 @@ A super fast url shortener in HTML and Js. Basically a scaled down version of [m
 - Pros
   - Much faster because doesnt have to load p5js
 - Cons
-  - Doesn'
   - Uses json instead of csv (harder to edit)
   - No password redirect protection

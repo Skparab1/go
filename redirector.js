@@ -43,5 +43,6 @@ var foundredirect = false;
     
     if (!foundredirect){
         document.write('<h1>This redirect was not found on this server. Check your url.</h1>');
+        document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a>');
     }
 })();

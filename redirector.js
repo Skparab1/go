@@ -42,6 +42,6 @@ var foundredirect = false;
     }
     
     if (!foundredirect){
-        //window.open('https://skparab1.github.io/wrongredirect',"_self");
+        document.write('<h1>This redirect was not found on this server. Check your url.</h1>');
     }
 })();

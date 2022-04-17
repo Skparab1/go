@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>Skparab1 Forum - Send Message</title>
+  <style>
+    .button {
+      background-color: #6e6b67;
+      border: 2px solid black;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      width: 17%;
+      display: inline-block;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    }
+
+    button:hover {
+        cursor: pointer;
+        background:#bbb;
+        color: black;
+        border-color: black;
+        border-style: dotted;
+    }
+
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+
+    h1 {
+      color: white;
+    }
+  </style>
+  
+  <script>
+    document.write('<h1>Skparab1 forum message sender </h1>');
+
+    document.write('<a href="https://skparab1.github.io/server/frontend.html">');
+    document.write('<button type="button" style="background-color: black; border: 2px solid white; color: white; height: 50px; padding: 10px 5px; text-align: center; width: 13.5%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;">Go back</button> </a> <br>');
+
+    document.write('<form action="https://skparab1.github.io/sendmsg">');
+    document.write('<label style="color: white;" for="name">Username (will be displayed):</label><br>');
+    document.write('<input style="color: white; background-color: black;" type="text" id="name" name="name"><br>');
+    document.write('<label style="color: white;" for="message">Message:</label><br>');
+    document.write('<textarea style="color: white; background-color: black;" id="message" name="message" rows="4" cols="75"></textarea><br>');
+    document.write('<label style="color: white;" for="message">Dialogue color</label><br>');
+    document.write('<select name="color" id="color" style="background-color: black; border: 2px solid white; color: white; height: 50px; padding: 10px 5px; text-align: center; width: 13.5%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer; margin-bottom:0.5em;">');
+    document.write('<option value="random">random</option>');
+    document.write('<option value="red">red</option>');
+    document.write('<option value="orange">orange</option>');
+    document.write('<option value="yellow">yellow</option>');
+    document.write('<option value="green">green</option>');
+    document.write('<option value="aqua">aqua</option>');
+    document.write('<option value="blue">blue</option>');
+    document.write('<option value="purple">purple</option>');
+    document.write('<option value="pink">pink</option>');
+    document.write('</select><br>');
+    document.write('<label style="color: white;" for="message">real name so i know who you are (will not be visible, will be logged for security.)</label><br>');
+    document.write('<input style="color: white; background-color: black;" type="text" id="rname" name="rname"><br>');
+    document.write('<input type="submit" value="Submit" style="background-color: black; border: 2px solid white; color: white; height: 50px; padding: 10px 5px; text-align: center; width: 13.5%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;">');
+    document.write('</form>');
+
+  </script>    
+</head>
+
+<body>
+
+  
+</body>
+</html>

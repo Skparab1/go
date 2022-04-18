@@ -1,5 +1,5 @@
 # go
-A super fast url shortener in HTML and Js. Basically a scaled down version of [my old one](github.com/skparab1/js-url-shortener)
+A super fast url shortener in HTML and Js. Basically a scaled down version of [my old one](github.com/skparab1/js-url-shortener). Alos has a 
 
 ## Much faster than old p5js one
 

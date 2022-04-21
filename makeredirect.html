@@ -42,7 +42,8 @@
     document.write('<input style="color: white; background-color: black;" type="text" id="alias" name="alias"><br>');
     document.write('<input type="submit" value="Submit" style="background-color: black; border: 2px solid white; color: white; height: 50px; padding: 10px 5px; text-align: center; width: 13.5%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;"');
     document.write('</form>');
-    document.write('<button onclick="checkalias();" style="color: white; background-color: black;" type="text" id="check" name="check" >Check alias</button><br><br><br><br><br>');
+    //document.write('<button onclick="togglerepliesright('+String(i)+');" id="replytoggle'+String(i)+'" style="background-color: '+themecolor+'; float: center; border: 2px solid '+themecolor+'; color: '+contrastcolor+'; height: 45px; padding: 0px 0px; text-align: center; border-radius: '+rad+'px; width: 50%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;">Show '+String(repliesfound)+' replies</button>');
+    document.write('<div><button onclick="checkalias();" id="checker" style="color: white; background-color: black;" type="text" id="check" name="check" >Check alias</button><br><br><br><br><br></div>');
 
     
     (async () => {

@@ -22,6 +22,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
+      - name: create folder
+        run: |
+          mkdir -p ./redirects && cp -R dist ./redirects
+          ls ./redirects
+      
       - name: Generate file
         uses: "finnp/create-file-action@master"
         env:
@@ -35,5 +40,11 @@ jobs:
           message: 'generate redirect HTML'
           add: "index.html --force"
           pathspec_error_handling: ignore
+          
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2
+        with:
+          comment: |
+            Issue data processed. Closing issue...
           push: true
         

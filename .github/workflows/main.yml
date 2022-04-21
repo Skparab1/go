@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: HTML redirect generator
+name: Issue data pusher
 
 # Controls when the workflow will run
   # Triggers the workflow when issue is opened
@@ -19,32 +19,43 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+        
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: remove changes
+        run: git reset -- data.json
+      - name: remove data changes
+        run: git reset --hard
       
-      - name: create folder
-        run: |
-          mkdir -p ./redirects && cp -R ./redirects
-          ls ./redirects
-      
-      - name: Generate file
-        uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: "redirects/index.html"
-          FILE_DATA: "<script>window.location.href = '$github.event.issue.body';</script>"
-          
+      - name: pull
+        run: git pull
+        continue-on-error: true
+        
+      - name: Update keywords
+        run: echo "`jq '.data[0].keywords |= . + "${{ github.event.issue.title }}"' redirects.json`" > redirects.json
+      - name: Update urls
+        run: echo "`jq '.data[1].urls |= . + "${{ github.event.issue.body }}"' redirects.json`" > redirects.json
+        
       - name: Commit
-        uses: EndBug/add-and-commit@v9 
+        uses: EndBug/add-and-commit@v9
         id: commit
         with:
-          message: 'generate redirect HTML'
-          add: "index.html --force"
+          message: 'updating database'
+          add: "redirects.json --force"
           pathspec_error_handling: ignore
-          
+          push: true
+        continue-on-error: true
+        
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
           comment: |
             Issue data processed. Closing issue...
-          push: true
+    
+      - name: remove changes
+        run: git reset -- data.json
+      - name: remove data changes
+        run: git reset --hard
+
         

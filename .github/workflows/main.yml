@@ -33,16 +33,16 @@ jobs:
         continue-on-error: true
         
       - name: Update keywords
-        run: echo "`jq '.data[0].keywords |= . + "${{ github.event.issue.title }}"' data.json`" > data.json
+        run: echo "`jq '.data[0].keywords |= . + "${{ github.event.issue.title }}"' redirects.json`" > redirects.json
       - name: Update urls
-        run: echo "`jq '.data[1].urls |= . + "${{ github.event.issue.body }}"' data.json`" > data.json
+        run: echo "`jq '.data[1].urls |= . + "${{ github.event.issue.body }}"' redirects.json`" > redirects.json
         
       - name: Commit
         uses: EndBug/add-and-commit@v9
         id: commit
         with:
           message: 'updating database'
-          add: "data.json --force"
+          add: "redirects.json --force"
           pathspec_error_handling: ignore
           push: true
         continue-on-error: true

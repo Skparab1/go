@@ -68,6 +68,9 @@ function convertchars(str){
         if (keywords[index] == kew_found){
             let goto = urls[index];
             goto = goto.replace('https://','');
+            goto = goto.replace('https//','');
+            goto = goto.replace('http://','');
+            goto = goto.replace('http//','');
             goto = 'https://'+goto;
             document.write('<h1><a href="'+goto+'">Redirecting you to '+goto+'</a></h1>');
             goto = convertchars(goto);

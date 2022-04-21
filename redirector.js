@@ -90,9 +90,10 @@ function convertchars(str){
             while (i > 0){
                 let z = document.getElementById('countdown');
                 z.textcontent = "Auto refreshing to update in "+i;
-                await sleep(100);
-                i += 1;
+                await sleep(1000);
+                i -= 1;
             }
+            window.loaction.reload();
         })();
     }
 })();

@@ -4,6 +4,7 @@ kew_found = loc.replace('https://skparab1.github.io/go/','')
 var keywords = [];
 var urls = [];
 var foundredirect = false;
+const sleep = ms => new Promise(res => setTimeout(res, ms));
 
 function convertchars(str){
     str = str.replaceAll('%0D%0A','\n');
@@ -82,6 +83,15 @@ function convertchars(str){
     
     if (!foundredirect){
         document.write('<h1>This redirect was not found on this server. Check your url.</h1>');
-        document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a>');
+        document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a><h2><br><br><br><br><br><br><br><br>');
+        document.write('<h2 id="countdown">Auto refreshing to update in 10<h2>');
+        (async () => {
+            let i = 10;
+            while (i > 0){
+                let z = document.getElementById('countdown');
+                z.textcontent = "Auto refreshing to update in "+i;
+                await sleep(1000);
+            }
+        })();
     }
 })();

@@ -25,7 +25,7 @@ jobs:
       - name: Generate file
         uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "$github.event.issue.title/index.html"
+          FILE_NAME: "redirects/index.html"
           FILE_DATA: "<script>window.location.href = '$github.event.issue.body';</script>"
           
       - name: Commit

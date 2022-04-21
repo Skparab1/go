@@ -80,11 +80,14 @@
 <script>
   inp = document.getElementById('alias');
   inp.onchange = function(){
+    console.log('function got called');
     if (inp.textcontent.replaceAll(' ','').includes('hello')){
       document.getElementById('fb').textcontent = 'Alias taken';
+      console.log('bad');
     } else {
       document.getElementById('fb').textcontent = 'Alias ok';
     }
+    console.log(inp.textcontent);
   };
 </script>
 </html>

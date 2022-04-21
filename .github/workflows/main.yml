@@ -24,7 +24,7 @@ jobs:
       
       - name: create folder
         run: |
-          mkdir -p ./redirects && cp -R dist ./redirects
+          mkdir -p ./redirects && cp -R ./redirects
           ls ./redirects
       
       - name: Generate file

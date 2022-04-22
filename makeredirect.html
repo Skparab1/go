@@ -81,7 +81,7 @@
   function validatealias(){
     console.log('function got called');
     inp = document.getElementById('alias');
-    if (inp.textcontent.replaceAll(' ','').includes('hello')){
+    if (inp.value.replaceAll(' ','').includes('hello')){
       document.getElementById('fb').textcontent = 'Alias taken';
       console.log('bad');
     } else {

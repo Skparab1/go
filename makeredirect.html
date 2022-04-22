@@ -81,11 +81,12 @@
   function validatealias(){
     console.log('function got called');
     inp = document.getElementById('alias');
+    let feedback = document.getElementById('fb');
     if (inp.value.replaceAll(' ','').includes('hello')){
-      document.getElementById('fb').textcontent = 'Alias taken';
+      feedback.textContent = 'Alias ok';
       console.log('bad');
     } else {
-      document.getElementById('fb').textcontent = 'Alias ok';
+      feedback.textContent = 'Alias taken';
     }
     console.log(inp.value);
     console.log(document.getElementById('fb').textcontent);

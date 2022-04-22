@@ -71,7 +71,7 @@
 <textarea style="color: white; background-color: black;" id="url" name="url" rows="4" cols="75"></textarea><br>
 <label style="color: white;" id="promptalias" for="promptalias">Alias (will be the keyword in Skparab1.github.io/go/[keyword]</label><br>
 <input onchange="validatealias();" style="color: white; background-color: black;" type="text" id="alias" name="alias">
-<h3 style="color: white;" id="fb" for="fb">Alias ok</h3><br>
+<h3 style="color: white;" id="fb" for="fb">Alias ok (Click to check alias)/h3><br>
 <input type="submit" value="Submit" id="submitter" style="background-color: black; border: 2px solid white; color: white; height: 50px; padding: 10px 5px; text-align: center; width: 13.5%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;">
 </form>
 <!button onclick="togglerepliesright('+String(i)+');" id="replytoggle'+String(i)+'" style="background-color: '+themecolor+'; float: center; border: 2px solid '+themecolor+'; color: '+contrastcolor+'; height: 45px; padding: 0px 0px; text-align: center; border-radius: '+rad+'px; width: 50%; display: inline-block; font-size: 14px; transition: all 0.2s ease-in-out; cursor: pointer;">Show '+String(repliesfound)+' replies</button>
@@ -84,12 +84,12 @@
     let x = document.getElementById('submitter');
     let feedback = document.getElementById('fb');
 
-    feedback.textContent = 'Alias ok';
+    feedback.textContent = 'Alias ok (click to check alias)';
     x.style.display = "block";
     let j = 0;
     while (j < keywords.length){
       if (inp.value.replaceAll(' ','') == keywords[j]){
-        feedback.textContent = 'Alias taken';
+        feedback.textContent = 'Alias taken (click to check alias)';
         console.log('taken');
         x.style.display = "none";
       }

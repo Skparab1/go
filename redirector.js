@@ -73,7 +73,7 @@ function convertchars(str){
             goto = goto.replace('https//','');
             goto = goto.replace('http://','');
             goto = goto.replace('http//','');
-            goto = 'https://'+goto;
+            goto = 'http://'+goto;
             document.write('<h1><a href="'+goto+'">Redirecting you to '+goto+'</a></h1>');
             window.open(goto,"_self");
             foundredirect = true;

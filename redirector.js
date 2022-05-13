@@ -85,15 +85,16 @@ function convertchars(str){
         document.write('<h1>This redirect was not found on this server. Check your url.</h1>');
         document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a><h2><br><br><br><br><br><br><br><br>');
         document.write('<h2 id="countdown">Auto refreshing to update in 10<h2>');
-        (async () => {
-            let i = 10;
-            while (i > 0){
-                let z = document.getElementById('countdown');
-                z.textcontent = "Auto refreshing to update in "+i;
-                await sleep(1000);
-                i -= 1;
-            }
-            window.loaction.reload();
-        })();
+        setTimeout(function(){let redirector2 = document.getElementById('countdown'); redirector.textContent = 'Auto refreshing to update in 9';},2000);
+        setTimeout(function(){let redirector3 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 8';},3000);
+        setTimeout(function(){let redirector4 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 7';},4000);
+        setTimeout(function(){let redirector5 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 6';},5000);
+        setTimeout(function(){let redirector6 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 5';},6000);
+        setTimeout(function(){let redirector7 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 4';},7000);
+        setTimeout(function(){let redirector8 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 3';},8000);
+        setTimeout(function(){let redirector9 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 2';},9000);
+        setTimeout(function(){let redirector10 = document.getElementById('redirector'); redirector.textContent = 'Auto refreshing to update in 1';},10000);
+        setTimeout(function(){let redirector11 = document.getElementById('redirector'); redirector.textContent = 'Redirecting....'; window.location.reload},11000);
+
     }
 })();

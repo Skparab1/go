@@ -83,7 +83,7 @@ function convertchars(str){
     
     if (!foundredirect){
         document.write('<h1>This redirect was not found on this server. Check your url.</h1>');
-        document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a><h2><br><br><br><br><br><br><br><br>');
+        document.write('<h2>If you are trying to make a short url, see the <a href="https://github.com/Skparab1/go/blob/main/redirects.json">database</a><h2><br><h2>Making a url shouldn\'t take more than a minute. This page will auto refresh to check database</h2><br><br><br><br><br><br><br>');
         document.write('<h2 id="countdown">Auto refreshing to update in 10<h2>');
         setTimeout(function(){let redirector2 = document.getElementById('countdown'); redirector2.textContent = 'Auto refreshing to update in 9';},1000);
         setTimeout(function(){let redirector3 = document.getElementById('countdown'); redirector3.textContent = 'Auto refreshing to update in 8';},2000);
@@ -94,7 +94,7 @@ function convertchars(str){
         setTimeout(function(){let redirector8 = document.getElementById('countdown'); redirector8.textContent = 'Auto refreshing to update in 3';},7000);
         setTimeout(function(){let redirector9 = document.getElementById('countdown'); redirector9.textContent = 'Auto refreshing to update in 2';},8000);
         setTimeout(function(){let redirector10 = document.getElementById('countdown'); redirector10.textContent = 'Auto refreshing to update in 1';},9000);
-        setTimeout(function(){let redirector11 = document.getElementById('countdown'); redirector11.textContent = 'Redirecting....'; location.reload();},10000);
+        setTimeout(function(){let redirector11 = document.getElementById('countdown'); window.location.reload(); redirector11.textContent = 'Redirecting....';},10000);
 
     }
 })();

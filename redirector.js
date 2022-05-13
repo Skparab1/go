@@ -94,7 +94,7 @@ function convertchars(str){
         setTimeout(function(){let redirector8 = document.getElementById('countdown'); redirector8.textContent = 'Auto refreshing to update in 3';},7000);
         setTimeout(function(){let redirector9 = document.getElementById('countdown'); redirector9.textContent = 'Auto refreshing to update in 2';},8000);
         setTimeout(function(){let redirector10 = document.getElementById('countdown'); redirector10.textContent = 'Auto refreshing to update in 1';},9000);
-        setTimeout(function(){let redirector11 = document.getElementById('countdown'); redirector11.textContent = 'Redirecting....'; window.location.reload;},10000);
+        setTimeout(function(){let redirector11 = document.getElementById('countdown'); redirector11.textContent = 'Redirecting....'; location.reload();},10000);
 
     }
 })();
